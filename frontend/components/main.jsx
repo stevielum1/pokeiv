@@ -5,6 +5,10 @@ class Main extends React.Component {
     super(props);
   }
 
+  componentDidMount() {
+    this.props.fetchPokemon();
+  }
+
   render() {
     return (
       <div>
