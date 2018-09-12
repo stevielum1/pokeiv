@@ -3,7 +3,7 @@ import Main from './main';
 import { fetchPokemon } from '../actions/pokemon_actions';
 
 const mapStateToProps = state => ({
-  pokemon: state.entities.pokemon
+  pokemon: Object.values(state.entities.pokemon)
 });
 
 const mapDispatchToProps = dispatch => ({

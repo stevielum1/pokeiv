@@ -5,7 +5,6 @@ import logger from 'redux-logger';
 
 const configureStore = () => createStore(
   rootReducer,
-  {},
   applyMiddleware(thunk, logger)
 );
 
