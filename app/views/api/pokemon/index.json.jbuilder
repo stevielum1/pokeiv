@@ -1,5 +1,5 @@
 @pokemon.each do |pokemon|
   json.set! pokemon.id do 
-    json.extract! pokemon, :name, :stamina, :attack, :defense
+    json.extract! pokemon, :id, :name, :stamina, :attack, :defense
   end
 end

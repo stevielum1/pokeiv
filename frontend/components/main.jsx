@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Main extends React.Component {
   constructor(props) {
@@ -30,9 +31,11 @@ class Main extends React.Component {
             value={this.state.input}
             onChange={this.handleInput} />
         </label>
-        <ul>
+        <ul className="poke-list">
           {pokemon.map(poke => (
-            <li key={poke.id}>{poke.name}</li>
+            <li key={poke.id}>
+              <Link to={`/${poke.id}`}>{poke.name}</Link>
+            </li>
           ))}
         </ul>
       </div>
