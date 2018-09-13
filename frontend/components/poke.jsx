@@ -242,6 +242,7 @@ class Poke extends React.Component {
             })}
           </tbody>
         </table>
+
         <label>Level
           <input
             type="number"
