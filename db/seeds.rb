@@ -16,7 +16,7 @@ def createPokemon(name, stamina, attack, defense)
 end
 
 File.readlines('app/assets/stats.txt').each do |line|
-  arr = line.split(" ")
+  arr = line.split(", ")
   name = arr[0]
   stamina = arr[1]
   attack = arr[2]
