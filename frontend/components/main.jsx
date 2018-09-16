@@ -26,7 +26,7 @@ class Main extends React.Component {
   render() {
     const pokemon = this.props.pokemon.filter(poke => {
       return poke.name.toLowerCase().includes(this.state.input.toLowerCase()) && this.state.input !== "";
-    });
+    }).slice(0, 10);
 
     return (
       <div className="main-container">
@@ -37,10 +37,12 @@ class Main extends React.Component {
           placeholder="Enter name of pokemon" />
         <ul className="poke-list">
           {pokemon.map(poke => (
-            <li key={poke.id}>
-              <Link to={`/${poke.id}`}
-                onClick={this.handleClick}>{poke.name}</Link>
-            </li>
+            <Link
+              to={`/${poke.id}`}
+              key={poke.id}
+              onClick={this.handleClick}>
+              {poke.name}
+            </Link>
           ))}
         </ul>
       </div>

@@ -20,7 +20,7 @@ body {
 }
 
 .main-container {
-  padding: 30px;
+  margin: 30px;
   box-sizing: border-box;
   position: relative;
 }
@@ -29,6 +29,17 @@ body {
   position: absolute;
   background: rgba(240,240,240,1);
   box-shadow: 1px 1px 3px black;
+  width: 100%;
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    background: rgba(0,0,0,0.1);
+  }
 }
 
 @media screen and (min-device-width: 480px) {
