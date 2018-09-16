@@ -210,69 +210,75 @@ class Poke extends React.Component {
     ivs.push([15,15,15], [10,10,10]);
 
     return (
-      <div>
+      <div className="poke-container">
         <h1>{this.props.pokemon.name}</h1>
-        <label>Level
-          <input
-            type="number"
-            step="0.5"
-            min="1"
-            max="40"
-            value={this.state.level1}
-            onChange={this.handleInput("level1")} />
-        </label>
-        <table>
-          <tbody>
-            <tr>
-              <th>(HP-ATK-DEF)</th>
-              <th>CP</th>
-              <th>%</th>
-            </tr>
-            {ivs.map((iv, idx) => {
-              const cp = this.calculateCP(iv[0], iv[1], iv[2], this.state.level1);
-              const percent = ((iv[0] + iv[1] + iv[2]) / 45.0 * 100).toFixed(2);
-              return (
-                <tr key={idx}>
-                  <td>{iv[0]}-{iv[1]}-
-                  {iv[2]}</td>
-                  <td>{cp}</td>
-                  <td>{percent}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+        <div className="level-container">
+          <label>Level
+            <input
+              className="level-input"
+              type="number"
+              step="0.5"
+              min="1"
+              max="40"
+              value={this.state.level1}
+              onChange={this.handleInput("level1")} />
+          </label>
+          <table>
+            <tbody>
+              <tr>
+                <th>(HP-ATK-DEF)</th>
+                <th>CP</th>
+                <th>%</th>
+              </tr>
+              {ivs.map((iv, idx) => {
+                const cp = this.calculateCP(iv[0], iv[1], iv[2], this.state.level1);
+                const percent = ((iv[0] + iv[1] + iv[2]) / 45.0 * 100).toFixed(2);
+                return (
+                  <tr key={idx}>
+                    <td>{iv[0]}-{iv[1]}-
+                    {iv[2]}</td>
+                    <td>{cp}</td>
+                    <td>{percent}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
 
-        <label>Level
-          <input
-            type="number"
-            step="0.5"
-            min="1"
-            max="40"
-            value={this.state.level2}
-            onChange={this.handleInput("level2")} />
-        </label>
-        <table>
-          <tbody>
-            <tr>
-              <th>(HP-ATK-DEF)</th>
-              <th>CP</th>
-              <th>%</th>
-            </tr>
-            {ivs.map((iv, idx) => {
-              const cp = this.calculateCP(iv[0], iv[1], iv[2], this.state.level2);
-              const percent = ((iv[0] + iv[1] + iv[2]) / 45.0 * 100).toFixed(2);
-              return (
-                <tr key={idx}>
-                  <td>{iv[0]}-{iv[1]}-
-                  {iv[2]}</td>
-                  <td>{cp}</td>
-                  <td>{percent}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+        <div className="level-container">
+          <label>Level
+            <input
+              className="level-input"
+              type="number"
+              step="0.5"
+              min="1"
+              max="40"
+              value={this.state.level2}
+              onChange={this.handleInput("level2")} />
+          </label>
+          <table>
+            <tbody>
+              <tr>
+                <th>(HP-ATK-DEF)</th>
+                <th>CP</th>
+                <th>%</th>
+              </tr>
+              {ivs.map((iv, idx) => {
+                const cp = this.calculateCP(iv[0], iv[1], iv[2], this.state.level2);
+                const percent = ((iv[0] + iv[1] + iv[2]) / 45.0 * 100).toFixed(2);
+                return (
+                  <tr key={idx}>
+                    <td>{iv[0]}-{iv[1]}-
+                    {iv[2]}</td>
+                    <td>{cp}</td>
+                    <td>{percent}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       </div>
     );
   }

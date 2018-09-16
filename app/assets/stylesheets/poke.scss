@@ -11,12 +11,25 @@ li {
 
 input {
   width: 100%;
+  background: rgba(0,0,0,0.1);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.level-input {
+  max-width: 100px;
+  margin-left: 10px;
 }
 
 body {
   height: 100%;
   width: 100%;
   font-size: 60px;
+}
+
+.poke-container {
+  margin: 30px;
+  box-sizing: border-box;
 }
 
 .main-container {
@@ -28,7 +41,7 @@ body {
 .poke-list {
   position: absolute;
   background: rgba(240,240,240,1);
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
   width: 100%;
 
   a {
@@ -42,8 +55,28 @@ body {
   }
 }
 
+.level-container {
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 0 10px;
+}
+
+th {
+  border: 2px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
 @media screen and (min-device-width: 480px) {
   body {
-    font-size: 16px;
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 36px;
   }
 }
