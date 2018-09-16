@@ -34,7 +34,7 @@ class Main extends React.Component {
           type="text"
           value={this.state.input}
           onChange={this.handleInput}
-          placeholder="Enter name of pokemon" />
+          placeholder="Enter name of pokemon..." />
         <ul className="poke-list">
           {pokemon.map(poke => (
             <Link
