@@ -404,7 +404,149 @@ Kyogre, 182, 270, 251
 Groudon, 182, 270, 251
 Rayquaza, 191, 284, 170
 Jirachi, 200, 210, 210
-Deoxys, 1, 1, 1
-Deoxys Attack, 1, 1, 1
-Deoxys Defense, 1, 1, 1
-Deoxys Speed, 1, 1, 1
+Deoxys, 100, 345, 115
+Deoxys Attack, 100, 414, 46
+Deoxys Defense, 100, 144, 330
+Deoxys Speed, 100, 230, 218
+Turtwig, 146, 119, 110
+Grotle, 181, 157, 143
+Torterra, 216, 202, 188
+Chimchar, 127, 113, 86
+Monferno, 162, 158, 105
+Infernape, 183, 222, 151
+Piplup, 142, 112, 102
+Prinplup, 162, 150, 139
+Empoleon, 197, 210, 186
+Starly, 120, 101, 58
+Staravia, 146, 142, 94
+Staraptor, 198, 234, 140
+Bidoof, 153, 80, 73
+Bibarel, 188, 162, 119
+Kricketot, 114, 45, 74
+Kricketune, 184, 160, 100
+Shinx, 128, 117, 64
+Luxio, 155, 159, 95
+Luxray, 190, 232, 156
+Budew, 120, 91, 109
+Roserade, 155, 243, 185
+Cranidos, 167, 218, 71
+Rampardos, 219, 295, 109
+Shieldon, 102, 76, 195
+Bastiodon, 155, 94, 286
+Burmy, 120, 53, 83
+Wormadam, 155, 141, 180
+Wormadam Plant, 155, 141, 180
+Wormadam Sandy, 155, 141, 180
+Wormadam Trash, 155, 127, 175
+Mothim, 172, 185, 98
+Combee, 102, 59, 83
+Vespiquen, 172, 149, 190
+Pachirisu, 155, 94, 172
+Buizel, 146, 132, 67
+Floatzel, 198, 221, 114
+Cherubi, 128, 108, 92
+Cherrim, 172, 170, 153
+Cherrim Overcast, 172, 170, 153
+Cherrim Sunny, 172, 170, 153
+Shellos, 183, 103, 105
+Shellos East Sea, 183, 103, 105
+Shellos West Sea, 183, 103, 105
+Gastrodon, 244, 169, 143
+Gastrodon East Sea, 244, 169, 143
+Gastrodon West Sea, 244, 169, 143
+Ambipom, 181, 205, 143
+Drifloon, 207, 117, 80
+Drifblim, 312, 180, 102
+Buneary, 146, 130, 105
+Lopunny, 163, 156, 194
+Mismagius, 155, 211, 187
+Honchkrow, 225, 243, 103
+Glameow, 135, 109, 82
+Purugly, 174, 172, 133
+Chingling, 128, 114, 94
+Stunky, 160, 121, 90
+Skuntank, 230, 184, 132
+Bronzor, 149, 43, 154
+Bronzong, 167, 161, 213
+Bonsly, 137, 124, 133
+Mime Jr, 85, 125, 142
+Happiny, 225, 25, 77
+Chatot, 183, 183, 91
+Spiritomb, 137, 169, 199
+Gible, 151, 124, 84
+Gabite, 169, 172, 125
+Garchomp, 239, 261, 193
+Munchlax, 286, 137, 117
+Riolu, 120, 127, 78
+Lucario, 172, 236, 144
+Hippopotas, 169, 124, 118
+Hippowdon, 239, 201, 191
+Skorupi, 120, 93, 151
+Drapion, 172, 180, 202
+Croagunk, 134, 116, 76
+Toxicroak, 195, 211, 133
+Carnivine, 179, 187, 136
+Finneon, 135, 96, 116
+Lumineon, 170, 142, 170
+Mantyke, 128, 105, 179
+Snover, 155, 115, 105
+Abomasnow, 207, 178, 158
+Weavile, 172, 243, 171
+Magnezone, 172, 238, 205
+Lickilicky, 242, 161, 181
+Rhyperior, 251, 241, 190
+Tangrowth, 225, 207, 184
+Electivire, 181, 249, 163
+Magmortar, 181, 247, 172
+Togekiss, 198, 225, 217
+Yanmega, 200, 231, 156
+Leafeon, 163, 216, 219
+Glaceon, 163, 238, 205
+Gliscor, 181, 185, 222
+Mamoswine, 242, 247, 146
+Porygon Z, 198, 264, 150
+Gallade, 169, 237, 195
+Probopass, 155, 135, 275
+Dusknoir, 128, 180, 254
+Froslass, 172, 171, 150
+Rotom, 137, 185, 159
+Rotom Fan, 137, 204, 219
+Rotom Frost, 137, 204, 219
+Rotom Heat, 137, 204, 219
+Rotom Mow, 137, 204, 219
+Rotom Wash, 137, 204, 219
+Uxie, 181, 156, 270
+Mesprit, 190, 212, 212
+Azelf, 181, 270, 151
+Dialga, 205, 275, 211
+Palkia, 189, 280, 215
+Heatran, 209, 251, 213
+Regigigas, 221, 287, 210
+Giratina, 284, 187, 225
+Giratina Altered, 284, 187, 225
+Giratina Origin, 284, 225, 187
+Cresselia, 260, 152, 258
+Phione, 190, 162, 162
+Manaphy, 225, 210, 210
+Darkrai, 172, 285, 198
+Shaymin, 225, 210, 210
+Shaymin Land, 225, 210, 210
+Shaymin Sky, 225, 261, 166
+Arceus, 237, 238, 238
+Arceus Bug, 237, 238, 238
+Arceus Dark, 237, 238, 238
+Arceus Dragon, 237, 238, 238
+Arceus Electric, 237, 238, 238
+Arceus Fairy, 237, 238, 238
+Arceus Fighting, 237, 238, 238
+Arceus Fire, 237, 238, 238
+Arceus Flying, 237, 238, 238
+Arceus Ghost, 237, 238, 238
+Arceus Grass, 237, 238, 238
+Arceus Ground, 237, 238, 238
+Arceus Ice, 237, 238, 238
+Arceus Poison, 237, 238, 238
+Arceus Psychic, 237, 238, 238
+Arceus Rock, 237, 238, 238
+Arceus Steel, 237, 238, 238
+Arceus Water, 237, 238, 238
